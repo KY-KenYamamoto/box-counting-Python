@@ -26,3 +26,8 @@ The script will execute box-countmethod, generate a log-log plot, and estimate t
 ## License
 
 This project is released under the MIT License.
+
+## Citation
+
+Please cite the corresponding paper once it is published.
+(Citation info will be added here upon publication.)
