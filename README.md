@@ -19,6 +19,7 @@ This repository provides a fast Python script for the fractal dimension of a bin
 
 ```bash
 python boxcount.py
+```
 
 The script will execute box-countmethod, generate a log-log plot, and estimate the fractal dimension $D$. ($D\approx1.64$ for the sample image.)
 
