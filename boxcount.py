@@ -48,7 +48,7 @@ if __name__ == '__main__':
     N = boxcount(image_point, box_sizes, (L_col, L_row))
 
     # === Estimate fractal dimension D via least squares fit ===
-    log_eps = np.log(1 / box_sizes)
+    log_eps = -np.log(box_sizes)
     log_N = np.log(N)
     D, intercept = np.polyfit(log_eps, log_N, 1)
 
